@@ -49,9 +49,9 @@ class ResourceAllocation(object):
         print(self.B)
         print(self.x_with_zero)
 
-a = ResourceAllocation(np.array([[0, 3, 3, 6, 7, 8, 9, 14],
-                                [0, 2, 4, 4, 5, 6, 8, 13],
-                                [0, 1, 1, 2, 3, 3, 10, 11]]
+a = ResourceAllocation(np.array([[0, 1, 2, 4, 8, 9, 9, 23],
+                                [0, 2, 4, 6, 6, 8, 10, 11],
+                                [0, 3, 4, 7, 7, 8, 8, 24]]
                                 ))
 a.solve()
 a = ResourceAllocation(np.array([[0, 2, 2, 3, 5, 8, 8, 10, 17],
